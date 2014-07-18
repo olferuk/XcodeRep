@@ -21,6 +21,7 @@
 		86F0116719796980009A66D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F0114919796980009A66D9 /* UIKit.framework */; };
 		86F0116F19796980009A66D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86F0116D19796980009A66D9 /* InfoPlist.strings */; };
 		86F0117119796980009A66D9 /* DrawingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F0117019796980009A66D9 /* DrawingTests.m */; };
+		86F0117C197973FC009A66D9 /* PlayingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F0117B197973FC009A66D9 /* PlayingCardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		86F0116C19796980009A66D9 /* DrawingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawingTests-Info.plist"; sourceTree = "<group>"; };
 		86F0116E19796980009A66D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		86F0117019796980009A66D9 /* DrawingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingTests.m; sourceTree = "<group>"; };
+		86F0117A197973FC009A66D9 /* PlayingCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardViewController.h; sourceTree = "<group>"; };
+		86F0117B197973FC009A66D9 /* PlayingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +115,9 @@
 		86F0114B19796980009A66D9 /* Drawing */ = {
 			isa = PBXGroup;
 			children = (
-				86F0115419796980009A66D9 /* DrawingAppDelegate.h */,
-				86F0115519796980009A66D9 /* DrawingAppDelegate.m */,
 				86F0115719796980009A66D9 /* Main.storyboard */,
+				86F0117A197973FC009A66D9 /* PlayingCardViewController.h */,
+				86F0117B197973FC009A66D9 /* PlayingCardViewController.m */,
 				86F0115A19796980009A66D9 /* DrawingViewController.h */,
 				86F0115B19796980009A66D9 /* DrawingViewController.m */,
 				86F0115D19796980009A66D9 /* Images.xcassets */,
@@ -126,6 +129,8 @@
 		86F0114C19796980009A66D9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				86F0115419796980009A66D9 /* DrawingAppDelegate.h */,
+				86F0115519796980009A66D9 /* DrawingAppDelegate.m */,
 				86F0114D19796980009A66D9 /* Drawing-Info.plist */,
 				86F0114E19796980009A66D9 /* InfoPlist.strings */,
 				86F0115119796980009A66D9 /* main.m */,
@@ -253,6 +258,7 @@
 				86F0115219796980009A66D9 /* main.m in Sources */,
 				86F0115619796980009A66D9 /* DrawingAppDelegate.m in Sources */,
 				86F0115C19796980009A66D9 /* DrawingViewController.m in Sources */,
+				86F0117C197973FC009A66D9 /* PlayingCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
